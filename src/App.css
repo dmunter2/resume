@@ -45,8 +45,10 @@
 /* Lesson 1 ClassName changes */
 
 .plain{
-/* border:none; */
-/* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .row{

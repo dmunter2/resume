@@ -1,6 +1,7 @@
 import React from 'react';
 import Style from 'styled-components';
 import Lesson1 from './learning/Lesson1'
+import Lesson2 from './learning/Lesson2'
 
 const H1 = Style.h1``
 const H4 = Style.h5``
@@ -28,6 +29,7 @@ favorite projects I have created</H4>
 
 
         <Lesson1 />
+        <Lesson2 />
 
         </div>
     )

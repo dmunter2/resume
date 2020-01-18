@@ -25,9 +25,9 @@ const Lesson1 = () => {
 
     const [display, setDisplay] = useState("plain")
 
-    const [button, setButton] = useState('plain')
+    const [button, setButton] = useState('plain-btn')
 
-    const [button2, setButton2] = useState('plain')
+    const [button2, setButton2] = useState('button-design')
 
 
     const handleDisplay = e => {

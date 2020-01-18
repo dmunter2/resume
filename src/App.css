@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+/* Lesson 1 ClassName changes */
+
+.plain{
+/* border:none; */
+/* background-color: white; */
+}
+
+.row{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.column{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* button designs in LEsson 1 */
+.plain-btn{
+  background-color: white;
+  border: 1px solid #282c34;
+}
+
+.button-design{
+  background-color: #282c34;
+  border: none;
+  color: white;
+}

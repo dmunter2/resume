@@ -60,15 +60,29 @@
 
 .column{
   width: 400px;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
 }
 
+.no-display{
+
+}
+
+.add-display{
+  display: flex;
+}
+
+
+
+
+
+
 /* button designs in LEsson 1 */
 .plain-btn{
-  background-color: white;
+  background-color: #F5DDC5;
   border: 1px solid #282c34;
+  color: #282c34;
 }
 
 .button-design{

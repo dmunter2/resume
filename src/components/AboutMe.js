@@ -4,7 +4,16 @@ import Lesson1 from './learning/Lesson1'
 import Lesson2 from './learning/Lesson2'
 
 const H1 = Style.h1``
-const H4 = Style.h5``
+const H4 = Style.h5`
+
+// font-family: 'Roboto', sans-serif
+// font-family: 'Lato', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+font-weight: 300;
+;
+
+`
 
 const AboutMe = () => {
 

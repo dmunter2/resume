@@ -36,12 +36,7 @@ const DIV3 = Style.div`
 margin-top: 25px;
 `
 const BUTTON = Style.button`
-// background-color: #657786;
-// border: none;
-// height: 40px;
-// width: 120px;
-// border-radius: 5px;
-// color: white;
+
 `
 
 const H10 = Style.h5`
@@ -64,6 +59,14 @@ font-size: 20px;
 text-align: center;
 padding-bottom: 2%;
 border-bottom: 2px solid  #ebebe3;
+`
+
+const H1 = Style.h1`
+color: #1f2020;
+
+`
+const H4 = Style.h4`
+color: #1f2020;
 `
 
 const Lesson4 = ({name, food1, food2, food3}) => {
@@ -110,8 +113,8 @@ const Lesson4 = ({name, food1, food2, food3}) => {
 
             </DIV2>
             <DIV1>
-               <h1>Transferring State</h1>
-               <h4>As you can see, the state was successfully delivered into this second component. Passing state is fun, and I love the opportunities it gives me when interacting with a user. In React, there are a few different ways to pass down state from one component to another. I have learned Redux, Context API, and Prop Drilling. For this example I used the method of Prop Drilling.</h4>
+               <H1>Transferring State</H1>
+               <H4>As you can see, the state was successfully delivered into this second component. Passing state is fun, and I love the opportunities it gives me when interacting with a user. In React, there are a few different ways to pass down state from one component to another. I have learned Redux, Context API, and Prop Drilling. For this example I used the method of Prop Drilling.</H4>
                
             </DIV1>
         </DIV>

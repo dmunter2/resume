@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import Style from 'styled-components';
 import Lesson4 from './Lesson4'
 
-const MAIN = Style.div``
+const MAIN = Style.div`
+background-color: #f9f6ef;
+`
 const H5 = Style.h5`
 `
 const H1 = Style.h1`
@@ -53,8 +55,15 @@ margin: 2%;
 
 
 const SPAN = Style.div``
-const H4 = Style.h4``
-const H2 = Style.h2``
+const H4 = Style.h4`
+color: #1f2020;
+
+`
+const H2 = Style.h2`
+color: #1f2020;
+font-size: 16px;
+
+`
 const DIV5 = Style.div`
 height: 200px;
 

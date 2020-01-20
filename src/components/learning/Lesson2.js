@@ -10,6 +10,9 @@ import map2 from './map2.PNG'
 const DIV = Style.div`
 background-color: #657786;
 padding: 2%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 `
 const DIV1 = Style.div``
 
@@ -75,22 +78,37 @@ const ELEMENT3 = Style.div``
 const ELEMENT4 = Style.div``
 const DIV8 = Style.div``
 
-const H5 = Style.h5`
-color: white;
-font-size: .8rem;
+const H5 = Style.div`
+margin-top: 20px
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+`
+const IMG = Style.img`
+height: 80px;
+width: 290px;
 margin-top: 15px;
+border-radius: 5px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 `
-const INPUT = Style.input`
-width: 60px;
+const DIV10 = Style.div`
+text-align: center;
+font-size: 20px;
+margin-top: 20px;
+color: white;
 `
 
-const MAP = Style.div`
-height: 40px;
-margin: 5px;
+const N1 = Style.div``
+
+const DIV11 = Style.div`
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: end;
 
 `
-
 
 const Lesson2 = () => {
 
@@ -162,8 +180,9 @@ const Lesson2 = () => {
 
                         <ELEMENT1 className='testcode ' className={show1} >
                             <H5>
-                                <img src={map1} />
-                                <img src={map2} />
+
+                                <IMG src={map1} />
+                                <DIV10>Output: [6,7,9,10,11,12,13,10,9,7] </DIV10>
 
                         
                             </H5>
@@ -185,25 +204,44 @@ const Lesson2 = () => {
                     </DIV6>
                 </DIV3>
                 <DIV8>
-                    <h1>This will be a new div</h1>
+                    <N1 className={show1} >
+                        <h1>This will be a new MAP</h1>
+                    </N1>
+
+                    <N1 className={show2} >
+                        <h1>This will be a new FOREACH</h1>
+                    </N1>
+
+                    <N1 className={show3} >
+                        <h1>This will be a new FILTER</h1>
+                    </N1>
+
+                    <N1 className={show4} >
+                        <h1>This will be a new REDUCE</h1>
+                    </N1>
+
+
                 </DIV8>
+
+
 
 
             </DIV2>
 
+            <DIV11>
+                <H1>Digging into Javascript</H1>
+                <h5>After creating many website templates with HTML and CSS I was ready for
+                    the life and blood of many websites; Javascript.
+                </h5>
+                <h5>After we learned the basics we covered how to implement them in functions </h5>
+                <h5>Functions are the foundation for all web interactions</h5>
+                <h5>It was here where i was able to complete projects like this</h5>
+            </DIV11>
 
 
-            <H1>Digging into Javascript</H1>
-            <h5>After creating many website templates with HTML and CSS I was ready for 
-                the life and blood of many websites; Javascript.
-            </h5>
-            <h5>After we learned the basics we covered how to implement them in functions </h5>
-            <h5>Functions are the foundation for all web interactions</h5>
-            <h5>It was here where i was able to complete projects like this</h5>
 
-            <DIV1>
-                <h1>This is where my js code will go</h1>
-            </DIV1>
+ 
+
         </DIV>
 
     )

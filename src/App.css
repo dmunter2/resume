@@ -48,6 +48,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
 }
 
@@ -56,37 +57,111 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .column{
   width: 400px;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
+
+/* Above are the 3 aligments for alignment */
+
+
+
+
+
+
+
+
 .no-display{
+  display: none;
+}
+.is-display{
 
 }
-
-.add-display{
-  display: flex;
-}
-
-
-
 
 
 
 /* button designs in LEsson 1 */
 .plain-btn{
   background-color: #F5DDC5;
-  border: 1px solid #282c34;
+  border: 1px solid #F5DDC5;
+
   color: #282c34;
 }
 
 .button-design{
-  background-color: #282c34;
-  border: none;
+  background-color: #1F2020;
+  border: 1px solid #F5DDC5;
   color: white;
+}
+
+
+.display-btn{
+  background-color: #F5DDC5;
+  color: #282c34;
+  border: 1px solid #F5DDC5;
+}
+
+
+
+
+.l2-btns{
+  border: 2px solid green;
+}
+
+
+
+
+
+
+
+
+
+/* This next code is for the buttons in lesson 2 */
+
+
+/* .is-showing:hover{
+  background-color: #a3aaae;
+}
+
+.no-show{
+  display: none;
+} */
+
+.border{
+
+}
+
+.btn-selector{
+background-color: #a3aaae;
+
+}
+
+.hover-btn{
+  background-color:  #F5DDC5;
+}
+
+
+
+
+.hover-btn:hover{
+  background-color: #1F2020;
+}
+
+
+
+.show{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.no-show{
+  display: none;
 }

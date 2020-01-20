@@ -76,6 +76,12 @@ margin-top: 20px
 display: flex;
 flex-direction: column;
 justify-content: center;
+color: #E4E4E2;
+font-weight: 500;
+
+font-family: 'Lato', sans-serif;
+
+
 
 `
 const IMG = Style.img`
@@ -112,6 +118,21 @@ font-family: 'Source Sans Pro', sans-serif;
 font-size: 15px;
 
 `
+
+
+const SPAN = Style.div`
+// width: 46%;
+`
+
+
+
+const H4 = Style.h4`
+color: #E4E4E2;
+`
+
+
+
+
 
 const Lesson2 = () => {
 
@@ -195,19 +216,22 @@ const Lesson2 = () => {
                         <ELEMENT2 className='test-code' className={show2}>
                                 <IMG src={foreach} />
 
-                         <h1>This is the text code for foreach</h1>
+                            <DIV10>Output: [2,4,6,8,10,12,152] </DIV10>
+
                         </ELEMENT2>
 
                         <ELEMENT3 className='test-code' className={show3}>
                                 <IMG src={filter} />
 
-                            <H1>This is for the filter function</H1>
+                            <DIV10>Output: [5,6,76] </DIV10>
+
                         </ELEMENT3>
 
                         <ELEMENT4 className='test-code' className={show4}>
                                 <IMG src={reduce} />
 
-                            <H1>This is for the reduce function</H1>
+                            <DIV10>Output: [200] </DIV10>
+
                         </ELEMENT4>
 
                     </DIV6>
@@ -219,15 +243,15 @@ const Lesson2 = () => {
                     </N1>
 
                     <N1 className={show2} >
-                        <h1>This will be a new FOREACH</h1>
+                        <H7>After a few weeks of using online Javascript editors we started to implement these new methods into Class Components and Functional Components in React.  </H7>
                     </N1>
 
                     <N1 className={show3} >
-                        <h1>This will be a new FILTER</h1>
+                        <H7>React is a component based UI library for Javascript And was used to make this website you are currently on. Most of my projects were made using React.</H7>
                     </N1>
 
                     <N1 className={show4} >
-                        <h1>This will be a new REDUCE</h1>
+                        <H7>React has been fun to learn. Although most of my projects were made in React I am willing to learn new languages or libraries. One of the things i've learned at Lambda School was how to learn. </H7>
                     </N1>
 
 
@@ -239,13 +263,14 @@ const Lesson2 = () => {
             </DIV2>
 
             <DIV11>
-                <H1>Digging into Javascript</H1>
-                <h5>After creating many website templates with HTML and CSS I was ready for
-                    the life and blood of many websites; Javascript.
-                </h5>
-                <h5>After we learned the basics we covered how to implement them in functions </h5>
-                <h5>Functions are the foundation for all web interactions</h5>
-                <h5>It was here where i was able to complete projects like this</h5>
+                <SPAN>
+                    <H1> Digging into Javascript</H1>
+
+                    <H4>After creating many website templates with HTML and CSS I was ready for
+                    the life and blood of many websites; Javascript. The first few sections covered Functions, Control Flow, Data Structures, Classes, and Callbacks. Once we
+                    got the basic principles down we began to implement them in difference functions and Class Components.</H4>
+                </SPAN>
+                
             </DIV11>
 
 

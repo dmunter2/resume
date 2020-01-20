@@ -1,10 +1,14 @@
 import React, {useState} from 'react';
 import Style from 'styled-components';
+import Lesson4 from './Lesson4'
 
-
-
+const MAIN = Style.div``
 const H5 = Style.h5`
-
+`
+const H1 = Style.h1`
+color: white;
+font-size: 20px;
+text-align: center;
 `
 const DIV = Style.div`
 padding: 2%;
@@ -37,9 +41,25 @@ const INPUT  = Style.input``
 
 const Lesson3 = () => {
 
+    const [name, setName] = useState({
+        user: ''
+    })
+
+
+    const changeHandler = e => {
+        e.preventDefault();
+        setName({
+            ...name,
+            [e.target.name]: e.target.value
+        })
+
+    }
+
 
 
     return(
+        <MAIN>
+
 
         <DIV>
 
@@ -49,11 +69,17 @@ const Lesson3 = () => {
             <H5>One of the first things I learned at Lambda School was how to use flexbox. I loved the feeling of creating something and then having control on that contents display through out the page regardless of the screen size</H5>
             </DIV2>
 
+
+
             <DIV3>
                 <FORM>
+                    <H1>Lets work with state!</H1>
+                    <H5></H5>
                     <INPUT
                         type='text' 
-                        placeholder='favorite'
+                        placeholder='Name'
+                        name='user'
+                        onChange={changeHandler}
                     />
 
 
@@ -66,6 +92,12 @@ const Lesson3 = () => {
             </DIV3>
 
         </DIV>
+
+
+
+        <Lesson4 />
+        </MAIN>
+
     )
 }
 

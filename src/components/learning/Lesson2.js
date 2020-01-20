@@ -10,9 +10,12 @@ import map2 from './map2.PNG'
 const DIV = Style.div`
 background-color: #657786;
 padding: 2%;
+padding-top: 4%;
+padding-bottom: 4%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+height: 100%;
 `
 const DIV1 = Style.div``
 
@@ -35,10 +38,6 @@ align-items: center;
 
 `
 
-const DIV4 = Style.div`
-display: flex;
-justify-content: end;
-`
 const DIV5 = Style.div`
 display: flex;
 flex-direction: row;
@@ -68,6 +67,7 @@ color: white;
 
 
 const H1 = Style.h1`
+color: #E4E4E2;
 `
 const ELEMENT1 = Style.div`
 `

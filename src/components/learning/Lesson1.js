@@ -7,7 +7,9 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 padding: 2%; 
-height: 350px;
+height: 100%;
+padding-top: 4%;
+padding-bottom: 4%;
 `
 const SPAN = Style.div`
 width: 46%;

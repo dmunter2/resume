@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import Style from 'styled-components';
 import map1 from './map.PNG'
-import map2 from './map2.PNG'
-
+import foreach from './foreach1.PNG'
+import reduce from './reduce.PNG'
+import filter from './filter1.PNG'
 
 
 
@@ -56,14 +57,6 @@ height: 30px;
 `
 
 
-const BUTTON1 = Style.button`
-background-color: #1F2020;
-border: 2px solid  #1F2020;
-height: 30px;
-width: 90px;
-color: white;
-`
-
 
 
 const H1 = Style.h1`
@@ -86,13 +79,16 @@ justify-content: center;
 
 `
 const IMG = Style.img`
-height: 80px;
-width: 290px;
+height: 90px;
+width: 300px;
 margin-top: 15px;
 border-radius: 5px;
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 `
+
+
+
 const DIV10 = Style.div`
 text-align: center;
 font-size: 20px;
@@ -107,6 +103,13 @@ width: 50%;
 display: flex;
 flex-direction: column;
 align-items: end;
+
+`
+
+const H7 = Style.h5`
+width: 94%;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 15px;
 
 `
 
@@ -131,22 +134,22 @@ const Lesson2 = () => {
         })
 
 
-        if(e.target.classList[3] == 'map'){
+        if(e.target.classList[3] === 'map'){
             setShow1('show')
             setShow2('no-show')
             setShow3('no-show')
             setShow4('no-show')
-        } else if (e.target.classList[3] == 'foreach') {
+        } else if (e.target.classList[3] === 'foreach') {
             setShow1('no-show')
             setShow2('show')
             setShow3('no-show')
             setShow4('no-show')
-        } else if (e.target.classList[3] == 'filter') {
+        } else if (e.target.classList[3] === 'filter') {
             setShow1('no-show')
             setShow2('no-show')
             setShow3('show')
             setShow4('no-show')
-        } else if (e.target.classList[3] == 'reduce') {
+        } else if (e.target.classList[3] === 'reduce') {
             setShow1('no-show')
             setShow2('no-show')
             setShow3('no-show')
@@ -190,14 +193,20 @@ const Lesson2 = () => {
                         </ELEMENT1>
 
                         <ELEMENT2 className='test-code' className={show2}>
-                            <H1>This is for the foreach function</H1>
+                                <IMG src={foreach} />
+
+                         <h1>This is the text code for foreach</h1>
                         </ELEMENT2>
 
                         <ELEMENT3 className='test-code' className={show3}>
+                                <IMG src={filter} />
+
                             <H1>This is for the filter function</H1>
                         </ELEMENT3>
 
                         <ELEMENT4 className='test-code' className={show4}>
+                                <IMG src={reduce} />
+
                             <H1>This is for the reduce function</H1>
                         </ELEMENT4>
 
@@ -205,7 +214,8 @@ const Lesson2 = () => {
                 </DIV3>
                 <DIV8>
                     <N1 className={show1} >
-                        <h1>This will be a new MAP</h1>
+                        <H7>Array methods were one of the first things we covered when going over Javascript. Knowing when and
+                                how to use different array  methods turned out to be a good base of Javascript knowledge to build off of. </H7>
                     </N1>
 
                     <N1 className={show2} >

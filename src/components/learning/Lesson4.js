@@ -35,13 +35,14 @@ const Lesson4 = () => {
 
     return (
         <DIV>
-            <DIV1>
-            <h1>Lesson4</h1>
-
-            </DIV1>
+      
             <DIV2>
 
             </DIV2>
+            <DIV1>
+                <h1>Lesson4</h1>
+
+            </DIV1>
         </DIV>
     )
 }

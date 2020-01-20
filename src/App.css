@@ -160,6 +160,7 @@ background-color: #a3aaae;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .no-show{

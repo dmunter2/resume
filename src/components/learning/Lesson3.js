@@ -23,7 +23,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   display: flex;
 flex-direction: column;
 align-items: center;
@@ -36,7 +36,7 @@ justify-content: center;
 const DIV2 = Style.div`
 width: 50%;
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;

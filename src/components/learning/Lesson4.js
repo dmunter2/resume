@@ -10,6 +10,12 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 
+@media (max-width: 840px) {
+  display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+}
+
 
 `
 
@@ -18,6 +24,13 @@ display: flex;
 flex-direction: column;
 align-items: end;
 width: 50%;
+
+@media (max-width: 840px) {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
 `
 const DIV2 = Style.div`
 height: 350px;
@@ -25,6 +38,8 @@ width: 380px;
 background-color: #1f2020;
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 margin: 3%;
+
+
 `
 const DIV4 =  Style.div`
 display: flex;
@@ -68,6 +83,14 @@ color: #1f2020;
 const H4 = Style.h4`
 color: #1f2020;
 `
+const MAIN = Style.div`
+@media (max-width: 840px) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+`
 
 const Lesson4 = ({name, food1, food2, food3}) => {
 
@@ -86,32 +109,35 @@ const Lesson4 = ({name, food1, food2, food3}) => {
     return (
         <DIV>
             
-      
-            <DIV2 >
-                <DIV11>
-                    <H11>Receive State</H11>
-                </DIV11>
-                <DIV4>
-                    <BUTTON className='btn' onClick={clickHandler}>Get State</BUTTON>
-                    <BUTTON className='btn' onClick={clickHandler1}>Delete State</BUTTON>
-                </DIV4>
-               
+        <MAIN>
 
-                <DIV3 className={state}>
-                    <CONTAIN>
-                        <H10>Name: {name.user}</H10>
-                        <H10>Breakfast: {name.food1}</H10>
-                    </CONTAIN>
-                    <CONTAIN>
-                        <H10>Lunch: {name.food2}</H10>
-                        <H10>Supper: {name.food3}</H10>
-                    </CONTAIN>
-                </DIV3>
-          
+                <DIV2 >
+                    <DIV11>
+                        <H11>Receive State</H11>
+                    </DIV11>
+                    <DIV4>
+                        <BUTTON className='btn' onClick={clickHandler}>Get State</BUTTON>
+                        <BUTTON className='btn' onClick={clickHandler1}>Delete State</BUTTON>
+                    </DIV4>
+                
+
+                    <DIV3 className={state}>
+                        <CONTAIN>
+                            <H10>Name: {name.user}</H10>
+                            <H10>Breakfast: {name.food1}</H10>
+                        </CONTAIN>
+                        <CONTAIN>
+                            <H10>Lunch: {name.food2}</H10>
+                            <H10>Supper: {name.food3}</H10>
+                        </CONTAIN>
+                    </DIV3>
+            
 
 
 
-            </DIV2>
+                </DIV2>
+            </MAIN>
+
             <DIV1>
                <H1>Transferring State</H1>
                <H4>As you can see, the state was successfully delivered into this second component. Passing state is fun, and I love the opportunities it gives me when interacting with a user. In React, there are a few different ways to pass down state from one component to another. I have learned Redux, Context API, and Prop Drilling. For this example I used the method of Prop Drilling.</H4>

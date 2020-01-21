@@ -11,15 +11,38 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 height: 100%;
+padding-bottom: 40px;
+
+
+@media (max-width: 840px) {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+padding-bottom: 40px;
+}
+
+
 `
 const DIV1 = Style.div`
 width: 50%;
+
+@media (max-width: 840px) {
+  width: 100%;
+}
+
 `
 const DIV2 = Style.div`
 display: flex;
 flex-direction: column;
 align-items: end;
 width: 50%;
+@media (max-width: 840px) {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
 `
 const CONTAINER = Style.div`
 height: 350px;

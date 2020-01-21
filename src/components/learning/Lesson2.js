@@ -18,7 +18,7 @@ flex-direction: row;
 justify-content: space-between;
 height: 100%;
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   display: flex;
 flex-direction: column-reverse;
 justify-content: center;
@@ -117,7 +117,7 @@ width: 50%;
 display: flex;
 flex-direction: column;
 align-items: end;
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   width: 100%;
 }
 
@@ -143,7 +143,7 @@ color: #E4E4E2;
 `
 
 const MAIN = Style.div`
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   display: flex;
 justify-content: center;
 margin-top: 30px;

@@ -10,9 +10,21 @@ padding: 2%;
 height: 100%;
 padding-top: 4%;
 padding-bottom: 4%;
+
+@media (max-width: 800px) {
+  display: flex;
+flex-direction: column;
+}
+
 `
 const SPAN = Style.div`
 width: 46%;
+
+@media (max-width: 800px) {
+  width: 100%;
+}
+
+
 `
 
 
@@ -31,6 +43,16 @@ width: 50%;
 display: flex;
 flex-direction: column;
 align-items: end;
+
+@media (max-width: 800px) {
+  display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+width: 100%;
+margin-bottom: 20px;
+}
+
 `
 const CONTAINER2 = Style.div`
 display: flex;
@@ -43,7 +65,7 @@ justify-content: space-between;
 
 const CONTAINER3 = Style.div`
 margin-top: 6%;
-height: 200px;
+height: 240px;
 width: 348px;
 border: 1px solid #F5DDC5;
 `
@@ -123,9 +145,12 @@ const Lesson1 = () => {
 
             <SPAN>
                 <H1>Early On</H1>
-                <H4>One of the first things I learned at Lambda School was how to use
-                    flexbox. I loved the feeling of creating something and then having control
-                    on that contents display through out the page regardless of the screen size
+                <H4>After we took on the basics on html and css we covered css Flexbox. Which is now one of my favorite css arrangement properties. 
+                    Before Flexbox it was difficult to arrange a webpage. After 
+                    getting an understanding of how flexbox worked I had more control of the webpage.
+                </H4>
+                <H4>Here is an example of calling 'display: flex' then decideing what type of direction you want the properties to be arranged. 
+                    You can select to align the contents with a 'flex-direction' of 'row' or 'flex-direction' of 'column' This is just one of the powers of Flexbox.
                 </H4>
             </SPAN>
 

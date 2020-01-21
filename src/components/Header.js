@@ -10,7 +10,7 @@ display: flex;
 flex-direction: row;
 align-items: center;
 width: 50%;
-justify-content: end;
+justify-content: center;
 `
 const H1 = Style.h1``
 const DIV = Style.div`
@@ -19,6 +19,13 @@ background-color: #f9f6ef;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+
+@media (max-width: 600px) {
+  display: flex;
+  flex-direction: column;
+//   justify-content: center;
+  align-items: center;
+}
 `
 
 

@@ -23,16 +23,43 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 
+@media (max-width: 800px) {
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
 
 `
 const DIV2 = Style.div`
 width: 50%;
+
+@media (max-width: 800px) {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
 `
 const DIV3 = Style.div`
 display: flex;
 flex-direction: column;
 align-items: end;
 width: 50%;
+@media (max-width: 800px) {
+  width: 100%;
+  display: flex;
+flex-direction: column;
+align-items:center;
+  margin-bottom: 40px;
+
+
+
+}
 
 `
 const FORM = Style.form`
@@ -59,9 +86,9 @@ const H4 = Style.h4`
 color: #1f2020;
 
 `
-const H2 = Style.h2`
+const H2 = Style.h1`
 color: #1f2020;
-font-size: 16px;
+font-size: 25px;
 
 `
 const DIV5 = Style.div`

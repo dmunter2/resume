@@ -17,6 +17,14 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 height: 100%;
+
+@media (max-width: 800px) {
+  display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+}
+
+
 `
 const DIV1 = Style.div``
 
@@ -109,6 +117,10 @@ width: 50%;
 display: flex;
 flex-direction: column;
 align-items: end;
+@media (max-width: 800px) {
+  width: 100%;
+}
+
 
 `
 
@@ -128,6 +140,15 @@ const SPAN = Style.div`
 
 const H4 = Style.h4`
 color: #E4E4E2;
+`
+
+const MAIN = Style.div`
+@media (max-width: 800px) {
+  display: flex;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
 `
 
 
@@ -190,77 +211,84 @@ const Lesson2 = () => {
     return (
         <DIV>
 
-            <DIV2>
 
-                <DIV3>
-                    <DIV5>
-                        <BUTTON onClick={clickHandler} className='hover-btn map'>.map</BUTTON>
-                        <BUTTON onClick={clickHandler} className='hover-btn foreach'>.forEach</BUTTON>
-                        <BUTTON onClick={clickHandler} className='hover-btn filter'>.filter</BUTTON>
-                        <BUTTON onClick={clickHandler} className='hover-btn reduce'>.reduce</BUTTON>
-                    </DIV5>
 
-                    <DIV6>
 
-                        <ELEMENT1 className='testcode ' className={show1} >
-                            <H5>
+            <MAIN>
 
-                                <IMG src={map1} />
-                                <DIV10>Output: [6,7,9,10,11,12,13,10,9,7] </DIV10>
+                <DIV2>
 
-                        
-                            </H5>
+                    <DIV3>
+                        <DIV5>
+                            <BUTTON onClick={clickHandler} className='hover-btn map'>.map</BUTTON>
+                            <BUTTON onClick={clickHandler} className='hover-btn foreach'>.forEach</BUTTON>
+                            <BUTTON onClick={clickHandler} className='hover-btn filter'>.filter</BUTTON>
+                            <BUTTON onClick={clickHandler} className='hover-btn reduce'>.reduce</BUTTON>
+                        </DIV5>
+
+                        <DIV6>
+
+                            <ELEMENT1 className='testcode ' className={show1} >
+                                <H5>
+
+                                    <IMG src={map1} />
+                                    <DIV10>Output: [6,7,9,10,11,12,13,10,9,7] </DIV10>
+
                             
-                        </ELEMENT1>
+                                </H5>
+                                
+                            </ELEMENT1>
 
-                        <ELEMENT2 className='test-code' className={show2}>
-                                <IMG src={foreach} />
+                            <ELEMENT2 className='test-code' className={show2}>
+                                    <IMG src={foreach} />
 
-                            <DIV10>Output: [2,4,6,8,10,12,152] </DIV10>
+                                <DIV10>Output: [2,4,6,8,10,12,152] </DIV10>
 
-                        </ELEMENT2>
+                            </ELEMENT2>
 
-                        <ELEMENT3 className='test-code' className={show3}>
-                                <IMG src={filter} />
+                            <ELEMENT3 className='test-code' className={show3}>
+                                    <IMG src={filter} />
 
-                            <DIV10>Output: [5,6,76] </DIV10>
+                                <DIV10>Output: [5,6,76] </DIV10>
 
-                        </ELEMENT3>
+                            </ELEMENT3>
 
-                        <ELEMENT4 className='test-code' className={show4}>
-                                <IMG src={reduce} />
+                            <ELEMENT4 className='test-code' className={show4}>
+                                    <IMG src={reduce} />
 
-                            <DIV10>Output: [200] </DIV10>
+                                <DIV10>Output: [200] </DIV10>
 
-                        </ELEMENT4>
+                            </ELEMENT4>
 
-                    </DIV6>
-                </DIV3>
-                <DIV8>
-                    <N1 className={show1} >
-                        <H7>Array methods were one of the first things we covered when going over Javascript. Knowing when and
-                                how to use different array  methods turned out to be a good base of Javascript knowledge to build off of. </H7>
-                    </N1>
+                        </DIV6>
+                    </DIV3>
+                    <DIV8>
+                        <N1 className={show1} >
+                            <H7>Array methods were one of the first things we covered when going over Javascript. Knowing when and
+                                    how to use different array  methods turned out to be a good base of Javascript knowledge to build off of. </H7>
+                        </N1>
 
-                    <N1 className={show2} >
-                        <H7>After a few weeks of using online Javascript editors we started to implement these new methods into Class Components and Functional Components in React.  </H7>
-                    </N1>
+                        <N1 className={show2} >
+                            <H7>After a few weeks of using online Javascript editors we started to implement these new methods into Class Components and Functional Components in React.  </H7>
+                        </N1>
 
-                    <N1 className={show3} >
-                        <H7>React is a component based UI library for Javascript And was used to make this website you are currently on. Most of my projects were made using React.</H7>
-                    </N1>
+                        <N1 className={show3} >
+                            <H7>React is a component based UI library for Javascript And was used to make this website you are currently on. Most of my projects were made using React.</H7>
+                        </N1>
 
-                    <N1 className={show4} >
-                        <H7>React has been fun to learn. Although most of my projects were made in React I am willing to learn new languages or libraries. One of the things i've learned at Lambda School was how to learn. </H7>
-                    </N1>
-
-
-                </DIV8>
-
+                        <N1 className={show4} >
+                            <H7>React has been fun to learn. Although most of my projects were made in React I am willing to learn new languages or libraries. One of the things i've learned at Lambda School was how to learn. </H7>
+                        </N1>
 
 
+                    </DIV8>
 
-            </DIV2>
+
+
+
+                </DIV2>
+            </MAIN>
+
 
             <DIV11>
                 <SPAN>
@@ -268,10 +296,11 @@ const Lesson2 = () => {
 
                     <H4>After creating many website templates with HTML and CSS I was ready for
                     the life and blood of many websites; Javascript. The first few sections covered Functions, Control Flow, Data Structures, Classes, and Callbacks. Once we
-                    got the basic principles down we began to implement them in difference functions and Class Components.</H4>
+                    got the basic principles down we began to implement them in Functional Components and Class Components.</H4>
                 </SPAN>
-                
+
             </DIV11>
+
 
 
 

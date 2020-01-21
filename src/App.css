@@ -177,10 +177,6 @@ border-radius: 5px;
 color: white;
 margin-top: 2%;
 }
-.btn:hover{
-  opacity: 80%;
-}
-
 .no-show-state{
   display: none;
 }

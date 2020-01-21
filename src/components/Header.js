@@ -31,8 +31,7 @@ const Header = () => {
             <H1>Devon Munter</H1>
             <DIV2>
                 <Link className='tabs' to='/'>Home</Link>
-                <Link className='tabs' to='/projects'>Projects</Link>
-                <Link className='tabs' to='/resume'>Resume</Link>
+                <Link className='tabs' to='/contact'>Contact</Link>
             </DIV2>
         </DIV>
     )

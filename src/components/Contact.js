@@ -1,16 +1,16 @@
 import React from 'react';
 
 
-const Resume = () => {
+const Contact = () => {
 
 
     return (
         <div>
-            <h1>Resume</h1>
+            <h1>Contact</h1>
         </div>
     )
 }
 
 
-export default Resume;
+export default Contact;
 

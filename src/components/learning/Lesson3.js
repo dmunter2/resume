@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import Style from 'styled-components';
 import Lesson4 from './Lesson4'
 
-const MAIN = Style.div``
+const MAIN = Style.div`
+background-color: #f9f6ef;
+`
 const H5 = Style.h5`
 `
 const H1 = Style.h1`
@@ -21,16 +23,43 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 
+@media (max-width: 840px) {
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
 
 `
 const DIV2 = Style.div`
 width: 50%;
+
+@media (max-width: 840px) {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
 `
 const DIV3 = Style.div`
 display: flex;
 flex-direction: column;
 align-items: end;
 width: 50%;
+@media (max-width: 800px) {
+  width: 100%;
+  display: flex;
+flex-direction: column;
+align-items:center;
+  margin-bottom: 40px;
+
+
+
+}
 
 `
 const FORM = Style.form`
@@ -53,8 +82,15 @@ margin: 2%;
 
 
 const SPAN = Style.div``
-const H4 = Style.h4``
-const H2 = Style.h2``
+const H4 = Style.h4`
+color: #1f2020;
+
+`
+const H2 = Style.h1`
+color: #1f2020;
+font-size: 25px;
+
+`
 const DIV5 = Style.div`
 height: 200px;
 

@@ -5,10 +5,27 @@ import Style from 'styled-components';
 
 
 
-const DIV2 = Style.div``
+const DIV2 = Style.div`
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 50%;
+justify-content: center;
+`
 const H1 = Style.h1``
 const DIV = Style.div`
 padding: 2%;
+background-color: #f9f6ef;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+@media (max-width: 600px) {
+  display: flex;
+  flex-direction: column;
+//   justify-content: center;
+  align-items: center;
+}
 `
 
 
@@ -20,9 +37,8 @@ const Header = () => {
         <DIV>
             <H1>Devon Munter</H1>
             <DIV2>
-                <Link to='/'>Home</Link>
-                <Link to='/projects'>Projects</Link>
-                <Link to='/resume'>Resume</Link>
+                <Link className='tabs' to='/'>Home</Link>
+                <Link className='tabs' to='/contact'>Contact</Link>
             </DIV2>
         </DIV>
     )

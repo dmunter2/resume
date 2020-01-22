@@ -5,6 +5,7 @@ import Lesson2 from './learning/Lesson2'
 import Lesson3 from './learning/Lesson3'
 import Lesson5 from './learning/Lesson5'
 import home from './home.PNG';
+import Lesson6 from './learning/Lesson6';
 
 
 
@@ -68,16 +69,14 @@ const AboutMe = () => {
                 <DIV3>
 
 
-                <H4>A week after graduating college in 2017 was when I began my career in banking. After a few years in banking I reazlied I was in the wrong career. During this time of searching for the right career I stumbled on
-                      FreeCodeCamp. I began their intro course and really started to enjoy it. I realized that this is the career path I belong in. 
-                    I was upset because I realized I had made the mistake of going to college for business when I should went the software route. I dont regret my time in the business field.
-                    Ive taken a lot of valuable experience from each job i've had.
-                    
-                    <H8>It wasnt until early 2019 when I discovered an online software engineer program that fit with my schedule
-                        and budget. I am currently still enrolled in the course and have dedicted every Sunday-Thursday since April
-                        of 2019 to this course.I have learned much more then I thought could be possible in this short amount of time.
-                        With a short amount of time I could see how any
-                         employer could be worried about what I have acutally have learned, which is why I have attatched some of my
+                <H4>A week after graduating college in 2017 was when I began my career in banking. After a few years in banking I reazlied I was in the wrong career. During this time of searching I stumbled on
+                  FreeCodeCamp and I began to dive into their introductory HTML course. I became a little obsessed and took a few of the other courses they had to offer. I was upset because I realized I
+had made the mistake of going to college for business when I should’ve went the software route. 
+                
+                    <H8>It wasnt until early 2019 when I discovered an online software engineer program that fit with my schedule and budget. I am currently still enrolled in the course and have dedicated every Sunday-Thursday since April of 2019 to this course. I have learned much more then I thought could be possible in this short amount of time. I am currently still enrolled in the course and have dedicted every Sunday-Thursday since April
+                  of 2019 to this course.I have learned much more then I thought could be possible in this short amount of time.
+                  With a short amount of time I could see how any
+                   employer could be worried about what I have acutally have learned, which is why I have attatched some of my
                     favorite projects I have created.</H8>
                       
                 </H4>
@@ -95,6 +94,7 @@ const AboutMe = () => {
         <Lesson2 />
         <Lesson3 />
         <Lesson5 /> 
+        <Lesson6 />
         
 
         </MAINDIV>

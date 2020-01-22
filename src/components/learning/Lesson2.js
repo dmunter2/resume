@@ -141,7 +141,13 @@ const SPAN = Style.div`
 const H4 = Style.h4`
 color: #E4E4E2;
 `
+const H9 = Style.h4`
+color: #E4E4E2;
+@media (max-width: 600px) {
+  display: none;
+}
 
+`
 const MAIN = Style.div`
 @media (max-width: 840px) {
   display: flex;
@@ -294,9 +300,11 @@ const Lesson2 = () => {
                 <SPAN>
                     <H1> Digging into Javascript</H1>
 
-                    <H4>After creating many website templates with HTML and CSS I was ready for
-                    the life and blood of many websites; Javascript. The first few sections covered Functions, Control Flow, Data Structures, Classes, and Callbacks. Once we
+                    <H4>Learning Javascript helped me connect a lot of dots when it comes to functionality. The first few sections covered Functions, Control Flow, Data Structures, Classes, and Callbacks. Once we
                     got the basic principles down we began to implement them in Functional Components and Class Components.</H4>
+                    <H9 className='js-example'>
+                        Ive attached a Countdown application I created using the Date object. This project helped solidify my knowledge on Event Handlers in Javascript. 
+                    </H9>
                 </SPAN>
 
             </DIV11>

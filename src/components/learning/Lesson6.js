@@ -16,7 +16,7 @@ padding-bottom: 40px;
 
 @media (max-width: 840px) {
   display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
 justify-content: center;
 padding-bottom: 40px;
 }
@@ -31,6 +31,8 @@ width: 50%;
 
 @media (max-width: 840px) {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 `
@@ -44,6 +46,7 @@ width: 50%;
 
   display: flex;
   align-items: center;
+  justify-content:center;
 }
 
 `
@@ -64,6 +67,11 @@ const H5 = Style.h5`
 color: #25282a;
 font-size: 16px;
 
+`
+const A = Style.a`
+@media (max-width: 840px) {
+  margin: 0;
+}
 `
 
 const DIV32 = Style.div`
@@ -87,11 +95,7 @@ const Lesson6 = () => {
     return (
         <DIV className='background2'>
             <DIV1>
-                <H1>Countdown App</H1>
-                <H5>After creating my To Do list application I had the idea of this application. It was fun to make and it was a great refresher of passing state and using Event Handlers. The backend for this application is in the works and I plan on using it store the dates of a users current events and display them upon logging in.   </H5>
-            </DIV1>
-            <DIV2>
-                <a className='a-tag'href='https://angry-roentgen-ab4441.netlify.com/'>
+                <A className='a-tag'href='https://angry-roentgen-ab4441.netlify.com/'>
                     <CONTAINER>
                       <DIV32>
                       <H1>Start</H1>
@@ -101,7 +105,13 @@ const Lesson6 = () => {
 
 
                     </CONTAINER>
-                </a>
+                </A>
+
+            </DIV1>
+            <DIV2>
+          <H1>Countdown App</H1>
+
+                <H5>After creating my To Do list application I had the idea of this application. It was fun to make and it was a great refresher of passing state and using Event Handlers. The backend for this application is in the works and I plan on using it store the dates of a users current events and display them upon logging in.   </H5>
 
             </DIV2>
         </DIV>

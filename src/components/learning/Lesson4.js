@@ -140,7 +140,10 @@ const Lesson4 = ({name, food1, food2, food3}) => {
 
             <DIV1>
                <H1>Transferring State</H1>
-               <H4>As you can see, the state was successfully delivered into this second component. Passing state is fun, and I love the opportunities it gives me when interacting with a user. In React, there are a few different ways to pass down state from one component to another. I have learned Redux, Context API, and Prop Drilling. For this example I used the method of Prop Drilling.</H4>
+               <H4>As you can see, the state was successfully delivered into this second component. Passing state is fun, 
+                   and I love the opportunities it gives me when interacting with a user. In React, there are a few different
+                    ways to pass down state from one component to another. I have learned Redux, Context API, and Prop Drilling. 
+                    For this example, I used the method of Prop Drilling.</H4>
                
             </DIV1>
         </DIV>

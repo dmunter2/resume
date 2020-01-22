@@ -76,7 +76,7 @@ had made the mistake of going to college for business when I should have went th
                     <H8>It was not until early 2019 when I discovered an online software engineer program that fit with my schedule and budget. I am currently still enrolled in the course and have dedicated every Sunday-Thursday since April of 2019 to it.
                        I have learned much more then I thought could be possible in this short amount of time.
       With only a short amount of time invested in this program, I could see how any
-       employer could be worried about what I have have learned, which is why I have attached some of my
+       employer could be worried about what I have learned, which is why I have attached some of my
                     favorite projects I have created. Github is where I have been saving all of my projects. You can visit my profile <a href='https://github.com/dmunter2'>here.</a></H8>
                       
                 </H4>

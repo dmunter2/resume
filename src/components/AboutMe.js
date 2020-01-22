@@ -69,7 +69,7 @@ const AboutMe = () => {
                 <DIV3>
 
 
-                <H4>A week after graduating college in 2017 was when I began my career in banking. A few years, in I reazlied I was in the wrong career. During this time of searching, I stumbled on
+                <H4>A week after graduating college in 2017 was when I began my career in banking. A few years in, I reazlied I was in the wrong career. During this time of searching, I stumbled on
                   FreeCodeCamp and I began to dive into their introductory HTML course. I became a little obsessed and took a few of the other courses they had to offer. I was upset because I realized I
 had made the mistake of going to college for business when I should have went the software route. 
                 

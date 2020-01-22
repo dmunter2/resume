@@ -166,8 +166,8 @@ const Lesson3 = () => {
                     <H2>State Management</H2>
 
                     <H4>One of Reacts central principles is the management of the current state. The concept of state took some extra time and studying for me to grasp. 
-                Once I did it changed everything and enabled me to do so much more with any application I create. Go ahead and enter some information information
-                in and I will pass that state onto the next section i've created.</H4>
+                Once I did, it changed everything and enabled me to do so much more with any application I created. Go ahead and enter some information
+                in and I will pass that state onto the next section I have created.</H4>
                 </DIV2>
 
 

@@ -6,7 +6,7 @@ import Lesson3 from './learning/Lesson3'
 import Lesson5 from './learning/Lesson5'
 import home from './home.PNG';
 import Lesson6 from './learning/Lesson6';
-
+import Lesson0 from './learning/Lesson0'
 
 
 const MAINDIV = Style.div`
@@ -89,7 +89,7 @@ had made the mistake of going to college for business when I should have went th
             </MAIN>
 
         
-
+          <Lesson0 />
         <Lesson1 />
         <Lesson2 />
         <Lesson3 />

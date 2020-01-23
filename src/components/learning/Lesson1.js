@@ -145,9 +145,9 @@ const Lesson1 = () => {
 
             <SPAN>
                 <H1>Early On</H1>
-                <H4>After we took on the basics on html and css we covered css Flexbox. Which is now one of my favorite css arrangement properties. 
-                    Before Flexbox it was difficult to arrange a webpage. After 
-                    getting an understanding of how flexbox worked I had more control of the webpage.
+                <H4>One of my favorite properties we learned in the first week of school was CSS Flexbox. After covering the basics of HTML and CSS, we were
+                    introduced to this. Learning this method of arrangment gave me more control of my webpage and 
+                    gave me more confidence on the design portion. 
                 </H4>
                 <H4>Here is an example of calling 'display: flex' then decideing what type of direction you want the properties to be arranged. 
                     You can select to align the contents with a 'flex-direction' of 'row' or 'flex-direction' of 'column' This is just one of the powers of Flexbox.

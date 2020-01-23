@@ -68,12 +68,15 @@ const Lesson5 = () => {
         <DIV>
             <DIV1>
                 <H1>REST API</H1>
-                <H5>It was amazing to see my first homemade API running. I used Nodejs to make the backend. I also 
-                  used Knex, JsonWebToken, Express, and Cors to make restricted routes. A token was given to the User in the
-                   LocalStoral, and all specified routes required that token before any information was given from the database.
-                    The databases in my portfolio were created using SQLite3. I am currently working towards getting a better understanding of PostgreSQL.   </H5>
-                <H5>Attached here is a project I just finished a few weeks ago. It includes a complete frontend and backend that 
-I created individually. The frontend was built using React and the backend with NodeJS. </H5>
+                  <H5>This was an individual project I created using ReactJs on the Frontend and Node, Express, and SQLite on the Backend.
+                     Securing this project on the backend was JsonWebToken. I used JsonWebToken to generate a user Token that was stored in the current users 
+                     LocalStorage. 
+                     </H5> <H5>
+                     Another precatuion I took was setting this token to expire after one hour of being generated. Every endpoint on the backend 
+                     that displayed any time of user information had restricted middleware. This middleware prevented any user who did not
+                     have a token form accessing any private information. On the frontend 
+                     I created restricted routes to prevent a user without a token from entering specific routes.
+                    The database was created using SQLite3. I am currently working towards getting a better understanding of PostgreSQL.   </H5>
             </DIV1>
             <DIV2>
                 <a href='https://elastic-gates-3ba026.netlify.com/'>

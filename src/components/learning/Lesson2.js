@@ -301,9 +301,10 @@ const Lesson2 = () => {
                     <H1> Digging into Javascript</H1>
 
                     <H4>Learning Javascript helped me connect a lot of dots when it comes to functionality. The first few sections covered Functions, Control Flow, Data Structures, Classes, and Callbacks. Once we
-                    got the basic principles down we began to implement them in Functional Components and Class Components.</H4>
+                    got the basic principles down we began to implement them in Functional Components and Class Components. Below is 
+                        a little tool I created to display a few of the methods we covered.</H4>
                     <H9 className='js-example'>
-                        Ive attached a Countdown application I created using the Date object. This project helped solidify my knowledge on Event Handlers in Javascript. 
+                        I have attached a Countdown application I created using the Date object at the bottom of this webpage. This project helped solidify my knowledge on Event Handlers in Javascript.
                     </H9>
                 </SPAN>
 

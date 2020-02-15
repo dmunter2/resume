@@ -11,6 +11,9 @@ flex-direction: row;
 align-items: center;
 width: 50%;
 justify-content: center;
+@media (max-width: 600px) {
+  width: 70%;
+}
 `
 const H1 = Style.h1``
 const DIV = Style.div`
@@ -39,6 +42,8 @@ const Header = () => {
             <DIV2>
                 <Link className='tabs' to='/'>Home</Link>
                 <Link className='tabs' to='/contact'>Contact</Link>
+                <a className='tabs post_it' href='https://frosty-curran-5b6381.netlify.com/' >Post-It App!</a>
+
             </DIV2>
         </DIV>
     )

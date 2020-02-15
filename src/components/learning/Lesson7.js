@@ -69,13 +69,13 @@ const Lesson7 = () => {
         <DIV>
             <DIV1>
                 <H1>Post - It</H1>
-                <H5>This project is a much cleaner then my To-Do application. I believe it has to do with me using PostgreSQL on the backend. With my To-Do project I 
-                    used Sqlite3 on the backend and it was much slower then this application. 
+                <H5>This project is a much cleaner then my To-Do application. The login experience is much smoother then my previous application. Deciding to use PostgreSQL on the backend has proven
+                    to be worth it. It has provided a quicker experience for the user. 
                      </H5> <H5>
-                    I just finished this project and am now working on incorporating Redux. Currently I prop drilled all of the state throughout the project. There isnt a lot of state throughout this 
-                    project, but I believe it will be a great place to display my Redux skills.    </H5>
-                    <H5>One of the key things I learned from creating this project was how to give my front end more specific information using the backend. I used KnexJs to build queries to send to my frontend. In the
-                        past I was not very specific on information I've been sending. This time around I was able to give precise information. This allowed my API calls on the front end to be much simpler.
+                    Post-It is definitely an unfinished project that I will continue to build on. The basics of the project are working but I have a few more ideas I want to try out. One idea I am currently attempting is 
+                    incorporate a way for users to send direct messages to other users. Along with that I am going to create a way for users to visit other users profiles.  </H5>
+                    <H5>One of the key things I learned from creating this project was how to give my front end specific information using the backend. I used KnexJs to build queries to send to my frontend. In the past
+                        the information my front end recievd from the backend has been broad. This lead to more complex code on the front end which the backend could have taken care of. This time around I was able to give precise information. This allowed my API calls on the front end to be much simpler.
                     </H5>
             </DIV1>
             <DIV2>

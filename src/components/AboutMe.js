@@ -59,6 +59,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 const AboutMe = () => {
 
+
   setTimeout(() => {
     alert('Dont forget to check out my new Post-It App!')
   }, 10000);

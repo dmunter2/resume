@@ -209,3 +209,14 @@ margin-top: 2%;
   background-image: url('Lambda.png');
 }
 
+.background5{
+  background-image: url('post.PNG');
+}
+
+
+.post_it{
+  border: 1px solid blue;
+  width: 90px;
+}
+
+

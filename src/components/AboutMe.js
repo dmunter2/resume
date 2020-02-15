@@ -7,6 +7,7 @@ import Lesson5 from './learning/Lesson5'
 import home from './home.PNG';
 import Lesson6 from './learning/Lesson6';
 import Lesson0 from './learning/Lesson0'
+import Lesson7 from './learning/Lesson7'
 
 
 const MAINDIV = Style.div`
@@ -58,12 +59,18 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 const AboutMe = () => {
 
+  setTimeout(() => {
+    alert('Dont forget to check out my new Post-It App!')
+  }, 10000);
+  
+
     return(
 
         <MAINDIV>
 
 
             <MAIN>
+              
                 <H1>About Me</H1>
 
                 <DIV3>
@@ -95,6 +102,7 @@ had made the mistake of going to college for business when I should have went th
         <Lesson3 />
         <Lesson5 /> 
         <Lesson6 />
+        <Lesson7 />
         
 
         </MAINDIV>

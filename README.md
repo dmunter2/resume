@@ -7,3 +7,5 @@ email: devon.munter@gmail.com
 Here is my course curriculum for Lambda school: 
 
 https://learn.lambdaschool.com/course/cs-fsw
+
+Thanks for the interest

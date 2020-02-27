@@ -29,7 +29,7 @@ const H8 = Style.h5`
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 20px;
 font-weight: 300;
-margin-top: 0;
+margin-top: 10px;
 
 
 @media (max-width: 600px) {
@@ -77,14 +77,20 @@ const AboutMe = () => {
                 <DIV3>
 
 
-                <H4>A week after graduating college in 2017 was when I began my career in banking. A few years in, I reazlied I was in the wrong career. During this time of searching, I stumbled on
-                  FreeCodeCamp and I began to dive into their introductory HTML course. I became a little obsessed and took a few of the other courses they had to offer. I was upset because I realized I
-had made the mistake of going to college for business when I should have chosen the software route. 
-                
-                    <H8>It was not until early 2019 when I discovered an online software engineer program that fit with my schedule and budget. I am currently still enrolled in the course and have dedicated every Sunday-Thursday since April of 2019 to it.
-                       I have learned much more then I thought could be possible in this short amount of time. 
-      With only a short amount of time invested in this program, I could see how any
-       employer could be worried about what I have learned, which is why I have attached some of my
+            <H4>Thanks for stopping by, throughout this portfolio I will take you 
+through my software education journey up until now. Before I enrolled in Lambda school my education began
+with courses on Udemy and the desire to learn more. I have immersed myself in many different
+Programming Languages, Frameworks, and Libraries. I love to think critically and be a important
+player in any team project im involved in. 
+ 
+            
+                    <H8>I started Lambda school running full force. The Full Stack Web Developer course I am currently 
+enrolled in has pushed and guided me into becoming a student of software. I love to learn and
+implement new things into projects I work on. This career path is right for me and I am excited to 
+start developing full-time. 
+                 I have learned much more then I thought could be possible in this short amount of time. 
+With a short amount of time invested in this program, I could see how any
+ employer could be worried about what I have learned, which is why I have attached some of my
                     favorite projects I have created. Github is where I have been saving all of my projects. You can visit my profile <a href='https://github.com/dmunter2'>here.</a></H8>
                       
                 </H4>

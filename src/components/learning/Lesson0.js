@@ -48,11 +48,11 @@ const Lesson0 = () => {
     return (
         <DIV>
             <DIV1>
-                <H1>Education</H1>
+          <H1>What I am Looking for</H1>
                 <h2></h2>
-                <H5>Lambda is an intense Software Engineering School that I am currently enrolled in. I have been 
-                    successful in creating full scale applications from scratch. Below I am going to give you a tour of what I have learned, including 
-                    some projects I have created.  </H5>
+          <H5>Before I continue with my projects, I wanted to throw out what I am interested in.
+Im looking to Develop for a company that creates meaningful projects and empowers
+engineers to make decisions, solve problems, and implement new ideas.  </H5>
             </DIV1>
         </DIV>
     )
